@@ -1,1 +1,9 @@
 # ssh-notify-telegram
+
+Crea un Bot en Telegram, obtenga tu Chat ID de Telegram
+Instala curl si no lo tienes ya instalado; 
+sudo apt get install curl
+Crea el script y dale los permisos. Puedes modificar el que dejo en cargado, añade tu Token e ID;
+sudo chmod a+x /path/to/script/scritpTelegram.sh
+Añade la siguiente línea al final del archivo /etc/pam.d/sshd;
+session  optional	 pam_exec.so /path/to/script/scritpTelegram.sh
