@@ -4,7 +4,7 @@
 ###############################
 #Credenciales del bot
 KEY="your-bot"
-USERID="your-id-user-telegram"
+USERID="your-id-chat-telegram"
 URL="https://api.telegram.org/bot${KEY}/sendMessage"
 DATE="$(date "+%d %b %Y %H:%M")"
 CURL=/usr/bin/curl
